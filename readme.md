@@ -1,5 +1,5 @@
 # Dockerized SQL Server with relative folder data
-This project run a local sql server with relative folder(by default). The trick is use node to get local folder and then call docker-compose
+This project run a local sql server with relative folder(by default). The trick is use node to get local folder and then call docker-compose, creating beafore a custom .env
 ## First o all
 First of all ust run
 Is as easy as
