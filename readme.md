@@ -18,7 +18,7 @@ NOTE: Maybe it takes a few minutes if you never *mcr.microsoft.com/mssql/server*
 - folder: Folder that will complete the url given from *home*
 - password: Secure password, beware to be a strong password or container will not run
 
-| Name                 | default vaule       |
+|    Name              |  default vaule      |
 |----------------------|---------------------|
 |    port              |  1432               |    
 |    home              |  ./                 |    
