@@ -61,6 +61,13 @@ All
 node up  --port=1234 --password='makeStrong!Easy' --home='C:\muxocode' --folder='\data'
 node up  --port=1234 --password='makeStrong!Easy' --home='/var/opt/data' --folder='/bbdd'
 ```
+## Othe use
+If you like to run docker-compose directly jus create a .env file like following and have fun :-)
+```shell
+HOME=C:\muxocode\data
+PORT=1234
+PASSWORD=makeStrong!Easy
+```
 ## References
 - [docker-compose npm](https://www.npmjs.com/package/docker-compose)
 - [docker-hub sqlServer](https://hub.docker.com/_/microsoft-mssql-server)
