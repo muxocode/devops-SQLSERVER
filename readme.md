@@ -62,6 +62,6 @@ node up  --port=1234 --password='makeStrong!Easy' --home='C:\muxocode' --folder=
 node up  --port=1234 --password='makeStrong!Easy' --home='/var/opt/data' --folder='/bbdd'
 ```
 ## References
-[docker-compose npm](https://www.npmjs.com/package/docker-compose)
-[docker-hub sqlServer](https://hub.docker.com/_/microsoft-mssql-server)
+- [docker-compose npm](https://www.npmjs.com/package/docker-compose)
+- [docker-hub sqlServer](https://hub.docker.com/_/microsoft-mssql-server)
 
