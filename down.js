@@ -1,3 +1,5 @@
+//docker-compose down
+
 var docker = require("./scripts/docker-compose");
 var path = require("path");
 
