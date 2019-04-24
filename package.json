@@ -1,0 +1,14 @@
+{
+  "name": "docker_mssql",
+  "version": "1.0.0",
+  "description": "Run a local SQL SERVER based docker with relative folder",
+  "main": "up.js",
+  "repository": "https://github.com/muxocode/devops-SQLSERVER",
+  "author": "Miguel Angel del Campo",
+  "license": "MIT",
+  "dependencies": {
+    "docker-compose": "^0.16.1",
+    "dotenv": "^7.0.0",
+    "yargs": "^13.2.2"
+  }
+}
