@@ -6,7 +6,7 @@ const fs = require('fs')
 //SET .env
 const mydata = path.resolve("./");
 process.env.HOME = (args.home || mydata) + (args.folder || "/mydata")
-process.env.PORT = args.port || "1432";
+process.env.PORT = args.port || "1433";
 process.env.PASSWORD = args.password || "deVops.Docker!";
 
 //mkdir if nor exists

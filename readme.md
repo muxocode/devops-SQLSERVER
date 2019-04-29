@@ -20,7 +20,7 @@ NOTE: Maybe it takes a few minutes if you never *mcr.microsoft.com/mssql/server*
 
 |    Name              |  default vaule      |
 |----------------------|---------------------|
-|    port              |  1432               |    
+|    port              |  1433               |    
 |    home              |  ./                 |    
 |    folder            |  mydata             |
 |    password          |  deVops.Docker!     |
