@@ -44,13 +44,13 @@ node up --home='/var/opt/data'
 ```
 Just folder:
 ```shell
-(Linux)   node up --folder='/bbdd'
-(Windows) node up --folder='\bbdd'
+(Linux)   node up --folder='bbdd'
+(Windows) node up --folder='bbdd'
 ```
 With home and folder:
 ```shell
-(Linux)   node up --home='/var/opt/data' --folder='/bbdd'
-(Windows) node up --home='C:\muxocode' --folder='\data'
+(Linux)   node up --home='/var/opt/data' --folder='bbdd'
+(Windows) node up --home='C:\muxocode' --folder='bbdd'
 ```
 Choose password:
 ```shell
@@ -58,8 +58,8 @@ node up --password='makeStrong!Easy'
 ```
 All
 ```shell
-node up  --port=1234 --password='makeStrong!Easy' --home='C:\muxocode' --folder='\data'
-node up  --port=1234 --password='makeStrong!Easy' --home='/var/opt/data' --folder='/bbdd'
+node up  --port=1234 --password='makeStrong!Easy' --home='C:\muxocode' --folder='data'
+node up  --port=1234 --password='makeStrong!Easy' --home='/var/opt/data' --folder='bbdd'
 ```
 ## Othe use
 If you like to run docker-compose directly jus create a .env file like following and have fun :-)

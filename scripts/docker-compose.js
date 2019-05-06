@@ -2,7 +2,6 @@ var compose = require("docker-compose");
 
 
 module.exports.up =function(path){
-
         compose.upAll({ cwd: path, log: true })
           .then(
             () => { console.log('done')},
