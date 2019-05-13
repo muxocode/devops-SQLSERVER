@@ -1,13 +1,10 @@
 version: '3.0'
 services:
-
   mssql:
     build:
         context: mssql
     ports:
       - ${PORT}:1433
-    volumes:
-      - ${HOME}:/var/opt/mssql/data
     environment:
       ACCEPT_EULA: 'Y'
       SA_PASSWORD: ${PASSWORD}

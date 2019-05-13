@@ -1,8 +1,8 @@
 var compose = require("docker-compose");
 
 
-module.exports.up =function(path){
-        compose.upAll({ cwd: path, log: true })
+module.exports.up =function(path, file){
+        compose.upAll({ cwd: path, log: true, config:file })
           .then(
             () => { console.log('done')},
             err => { console.log('something went wrong:', err.message)}

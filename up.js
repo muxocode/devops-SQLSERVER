@@ -6,3 +6,5 @@ var path = require("path");
 
 docker.up(path.resolve("./"));
 
+
+

@@ -2,3 +2,4 @@
 .env
 mydata
 package-lock.json
+docker-compose.yml

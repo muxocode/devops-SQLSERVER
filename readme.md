@@ -17,6 +17,8 @@ NOTE: Maybe it takes a few minutes if you never *mcr.microsoft.com/mssql/server*
 - home: Folder where data be stored, if you pass this argument it must be a absolute path, to local url use *folder*
 - folder: Folder that will complete the url given from *home*
 - password: Secure password, beware to be a strong password or container will not run
+- nosave: Ignores home parameter and no saves data into a volume
+
 
 |    Name              |  default vaule      |
 |----------------------|---------------------|
@@ -24,6 +26,8 @@ NOTE: Maybe it takes a few minutes if you never *mcr.microsoft.com/mssql/server*
 |    home              |  ./                 |    
 |    folder            |  mydata             |
 |    password          |  deVops.Docker!     |
+|    nosave            |  false              |
+
 ## DOWN
 Run following
 ```shell
@@ -61,13 +65,11 @@ All
 node up  --port=1234 --password='makeStrong!Easy' --home='C:\muxocode' --folder='data'
 node up  --port=1234 --password='makeStrong!Easy' --home='/var/opt/data' --folder='bbdd'
 ```
-## Othe use
-If you like to run docker-compose directly jus create a .env file like following and have fun :-)
+No save
 ```shell
-HOME=C:\muxocode\data
-PORT=1234
-PASSWORD=makeStrong!Easy
+node up  --port=1234 --nosave
 ```
+
 ## References
 - [docker-compose npm](https://www.npmjs.com/package/docker-compose)
 - [docker-hub sqlServer](https://hub.docker.com/_/microsoft-mssql-server)
