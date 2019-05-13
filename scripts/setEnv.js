@@ -30,6 +30,10 @@ if(!args.nosave)
     if (!fs.existsSync(process.env.HOME)){
         fs.mkdirSync(process.env.HOME);
     }
+
+    console.log("data will storaged in " + process.env.HOME);
+
+
     fs.appendFileSync('./.env', "HOME="+process.env.HOME);
     fs.appendFileSync('./docker-compose.yml',
  "\n    volumes:"
@@ -43,5 +47,4 @@ fs.appendFileSync('./.env', '\n');
 fs.appendFileSync('./.env', "PASSWORD="+process.env.PASSWORD);
 
 
-console.log("data will storaged in " + process.env.HOME);
 console.log("SQL will listen at port " + process.env.PORT);
